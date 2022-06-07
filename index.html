@@ -3,16 +3,16 @@
 
 <head>
   <meta charset="utf-8">
-  <title>freeCodeCamp Survey Form</title>
+  <title>Freediving Survey Form</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
 
-  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <h1 id="title">Freediving Survey Form</h1>
 
-  <p id="description"><em>Thank you for taking the time to help us improve the platform</em></p>
+  <p id="description"><em>Thank you for filling out this survey!</em></p>
 
   <form id="survey-form">
 
@@ -22,10 +22,22 @@
 
     <label id="number-label"><strong>Age</strong> <span class="note">(optional)</span><input id="number" type="number" min="10" max="120" placeholder="Age" /></label>
 
-    <label><strong>Which option best describes your current role?</strong>
+    <label><strong>Would you consider yourself a mermaid or an aquaman?</strong>
+      <label><input class="inline" type="radio" name="consider" value="recon" />Definitely</label>
+      <label><input class="inline" type="radio" name="consider" value="recon" />Maybe</label>
+      <label><input class="inline" type="radio" name="consider" value="recon" />No</label>
+    </label>
+
+    <label><strong>Do you currently work with freediving in any way?</strong>
+      <label><input class="inline" type="radio" name="work" value="recon" />Yes</label>
+      <label><input class="inline" type="radio" name="work" value="recon" />No</label>
+    </label>
+
+    <label><strong>Which option best describes your current role outside of freediving?</strong>
       <select id="dropdown">
         <option>Select current role</option>
         <option>Student</option>
+        <option>Part Time Job</option>
         <option>Full Time Job</option>
         <option>Full Time Learner</option>
         <option>Prefer not to say</option>
@@ -33,39 +45,36 @@
       </select>
     </label>
 
-    <label><strong>Would you recommend freeCodeCamp to a friend?</strong>
-      <label><input class="inline" type="radio" name="recon" value="recon" />Definitely</label>
-      <label><input class="inline" type="radio" name="recon" value="recon" />Maybe</label>
-      <label><input class="inline" type="radio" name="recon" value="recon" />No</label>
-    </label>
-
-    <label><strong>What is your favorite feature of freeCodeCamp?</strong>
+    <label><strong>What is your all-time favorite discipline in freediving?</strong>
       <select id="dropdown">
         <option>Select an option</option>
-        <option>Challenges</option>
-        <option>Projects</option>
-        <option>Community</option>
-        <option>Open Source</option>
+        <option>Constant Weight (CWT)</option>
+        <option>Constant Weight Without Fins (CNF)</option>
+        <option>Free Immersion (FIM)</option>
+        <option>Dynamic With Fins (DYN)</option>
+        <option>Dynamic Without Fins (DNF)</option>
+        <option>Speed-Endurance Apnea (S&E)</option>
+        <option>Static Apnea (STA)</option>
+        <option>Variable Weight (VWT)</option>
+        <option>No Limit (NLT)</option>
       </select>
     </label>
 
-    <label><strong>What would you like to see improved?</strong> <span class="note">(Check all that apply)</span>
-      <label><input class="inline" type="checkbox" value="1" />Front-end Projects</label>
-      <label><input class="inline" type="checkbox" value="1" />Back-end Projects</label>
-      <label><input class="inline" type="checkbox" value="1" />Data Visualization</label>
-      <label><input class="inline" type="checkbox" value="1" />Challenges</label>
-      <label><input class="inline" type="checkbox" value="1" />Open Source Community</label>
-      <label><input class="inline" type="checkbox" value="1" />Gitter help rooms</label>
-      <label><input class="inline" type="checkbox" value="1" />Videos</label>
-      <label><input class="inline" type="checkbox" value="1" />City Meetups</label>
-      <label><input class="inline" type="checkbox" value="1" />Wiki</label>
-      <label><input class="inline" type="checkbox" value="1" />Forum</label>
-      <label><input class="inline" type="checkbox" value="1" />Additional Courses</label>
+    <label><strong>Why do you freedive?</strong> <span class="note">(Check all that apply)</span>
+      <label><input class="inline" type="checkbox" value="1" />Experience the ultimate feeling of freedom</label>
+      <label><input class="inline" type="checkbox" value="1" />Master your body</label>
+      <label><input class="inline" type="checkbox" value="1" />Find peace and tranquility</label>
+      <label><input class="inline" type="checkbox" value="1" />Increased fitness</label>
+      <label><input class="inline" type="checkbox" value="1" />Be at one with the Ocean</label>
+      <label><input class="inline" type="checkbox" value="1" />Learn to manage stress</label>
+      <label><input class="inline" type="checkbox" value="1" />Feel accomplished</label>
+      <label><input class="inline" type="checkbox" value="1" />Become an Ocean conservation advocate</label>
+
     </label>
 
-    <label><strong>Any comments or suggestions?</strong>
+    <label><strong>Where is your favorite freediving destination and why?</strong>
       <label>
-        <textarea placeholder="Enter your comments here..." rows="10" cols="100" /></textarea>
+        <textarea placeholder="Please hit me with your best tips and tricks ..." rows="10" cols="100" /></textarea>
       </label>
     </label>
 
